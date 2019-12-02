@@ -1,0 +1,80 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+.form-container{
+    
+    z-index: 10px;
+    font: 95% Arial, Helvetica , sans-serif;
+    max-width: 500px;
+    padding: 16px;
+    /* margin: 20% ; */
+    background: #f7f7f7; 
+
+
+}
+
+.form-container h1 {
+
+    /* background: #33A5FF; */
+    background: #E5E6E7;
+    padding: 20px 0 ;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: #8C8C8C;
+    margin: -16px -16px 16px -16px;
+
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    transition: all 0,30s ease-in-out ;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 2px  #ccc;
+    padding: 3%;
+    /* color :#555; */
+    font: 95% Arial, Helvetica, sans-serif;
+
+
+
+
+} 
+
+.form-container .btn-send {
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3%;
+    background: #33A5FF;
+    /* border-bottom: 3px solid #30c293; */
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    color: #fff;
+    font-size: 22px;
+
+
+
+
+}
+.form-container .btn-send:hover:not([disabled]) {
+
+    background: #33C4FF;
+}
+
+.alert-danger{
+    color: #FF0042;
+    background:#FFDEE7;
+    margin-bottom: 5px;
+}
+
+.container-error-message {
+    padding: 3px;  
+}

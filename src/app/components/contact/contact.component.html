@@ -1,0 +1,74 @@
+
+<!-- <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">LAM/DEV</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="ion-navicon"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="probootstrap-navbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-features">We do</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-reviews">Works</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-pricing">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section-faq">FAQ</a></li>
+        <li class="nav-item cta-btn ml-xl-2 ml-lg-2 ml-md-0 ml-sm-0 ml-0"><a class="nav-link" href="https://uicookies.com/" target="_blank"><span class="pb_rounded-4 px-4">Get Started</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+<section class="pb_cover_v3 overflow-hidden cover-bg-indigo cover-bg-opacity text-left pb_gradient_v1 pb_slant-light" id="section-home">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-6">
+          <h2 class="heading mb-3">Lorem Ipsum</h2>
+          <div class="sub-heading">
+            <p>Lorem ipsum es un texto para rellenar contenidos gráficos.</p>
+        </div>
+      </div>
+      <div class="col-md-1">
+      </div>
+      <div class="form-container col-md-5 relative align-self-center">
+
+          <!-- <h1> Contact us!</h1> -->
+          <form [formGroup]= "contactForm" (ngSubmit)="onSavedForm()" >
+              <input type ="text" formControlName="name" placeholder="Nombre">
+              <div class="alert-danger" *ngIf="name.invalid && (name.dirty || name.touched)">
+                <div class="container-error-message" *ngIf="name.errors.required">
+                  Name is required.
+                </div>
+                <div class="container-error-message" *ngIf="name.errors.minLength">
+                  Name must be at least 5 characters long.
+                </div> 
+              </div>
+
+              <input type ="text" formControlName="email" placeholder="Email">
+              <div class="alert-danger" *ngIf="email.invalid && (email.dirty || email.touched)">
+                <div class="container-error-message" *ngIf="email.errors.required">
+                  Email is required.
+                </div>
+                <div class="container-error-message" *ngIf="email.errors.minLength">
+                  Email must be at least 5 characters long.
+                </div>
+                <div class="container-error-message" *ngIf="(email.dirty || email.touched) && email.invalid && email.errors.pattern">
+                  Value has to be a valid email addres.
+                </div> 
+              </div>
+              
+              <textarea formControlName="message" placeholder="Mensaje"></textarea>
+              <div class="alert-danger" *ngIf="message.invalid && (message.dirty || message.touched)">
+                <div class="container-error-message" *ngIf="message.errors.required">
+                  Message is required.
+                </div>
+              </div>
+              <button type="submit" class="btn-send" [disabled]="!contactForm.valid">Enviar</button>
+              <div class="alert-success" *ngIf="contactForm.valid">Your message has been sent!</div>
+          </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+            
+
