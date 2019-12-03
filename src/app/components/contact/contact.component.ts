@@ -19,6 +19,7 @@ export class ContactComponent implements OnInit {
       telefono: new FormControl('',[Validators.required]),
       provincia: new FormControl('', [Validators.required]),
       localidad: new FormControl('', [Validators.required]),
+      direccion: new FormControl('',[Validators.required]),
       
     });
   }
@@ -56,6 +57,7 @@ export class ContactComponent implements OnInit {
   get telefono() {return this.contactForm.get('telefono');}
   get provincia() {return this.contactForm.get('provincia');}
   get localidad() { return this.contactForm.get('localidad');}
+  get direccion() {return this.contactForm.get('direccion');}
 
 }
 

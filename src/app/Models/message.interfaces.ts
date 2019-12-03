@@ -6,6 +6,7 @@ export interface MessageI {
     telefono: String;
     provincia: String;
     localidad: String;
+    direccion: String;
     
     
 

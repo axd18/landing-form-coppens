@@ -12,6 +12,8 @@
   font-weight: normal;
   font-style: normal; }
 
+
+
 .mouse-wrap, .scroll-wrap {
   position: absolute;
   bottom: 50px;
@@ -696,23 +698,24 @@
   background: #a5e9db; }
 
 .pb_gradient_v1:before {
-  background: #665fee;
+  background-image: url("../images/img_background.png");
+  /* background: #665fee;
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+  /* background: -moz-linear-gradient(45deg, #665fee 0%, #27c2de 100%); */
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
+  /* background: -webkit-linear-gradient(45deg, #665fee 0%, #27c2de 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: -o-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
-  background: linear-gradient(45deg, #b72126 0%, #FF0606 100%);
+  /* background: -o-linear-gradient(45deg, #665fee 0%, #27c2de 100%); */
+  /* background: linear-gradient(45deg, #b72126 0%, #FF0606 100%); */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#665fee', endColorstr='#27c2de',GradientType=1 );
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#665fee', endColorstr='#27c2de',GradientType=1 ); */
   /* IE6-9 fallback on horizontal gradient */
   content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0; } */
 
 .overlay {
   position: absolute;
