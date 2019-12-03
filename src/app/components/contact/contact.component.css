@@ -10,7 +10,8 @@ body {
     max-width: 500px;
     padding: 16px;
     /* margin: 20% ; */
-    background: #f7f7f7; 
+    background: #f7f7f7;
+    
 
 
 }
@@ -57,6 +58,7 @@ body {
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
+    border-radius: 5px;
     color: #fff;
     font-size: 22px;
 

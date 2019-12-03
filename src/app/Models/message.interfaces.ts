@@ -1,7 +1,12 @@
 export interface MessageI {
 
     email: String;
-    name: String;
-    message: String ;
+    razonSocial: String;
+    nombreComercio: String;
+    telefono: String;
+    provincia: String;
+    localidad: String;
+    
+    
 
 }
