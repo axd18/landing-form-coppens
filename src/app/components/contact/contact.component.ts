@@ -59,6 +59,11 @@ export class ContactComponent implements OnInit {
   get localidad() { return this.contactForm.get('localidad');}
   get direccion() {return this.contactForm.get('direccion');}
 
+
+  mensajeEnviado(){
+    alert('Gracias. Tu mensaje ha sido enviado. Si tenés más sucursales, podés seguir completando el formulario.');
+  }
+
 }
 
 

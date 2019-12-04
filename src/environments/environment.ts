@@ -4,15 +4,15 @@
 
 export const environment = {
    production: false,
-    firebaseConfig : {
-    apiKey: "AIzaSyBI9G7PpkxKQ1ViQhKQUIqmfzI-ZGoqvFE",
-    authDomain: "landing-form-f35b1.firebaseapp.com",
-    databaseURL: "https://landing-form-f35b1.firebaseio.com",
-    projectId: "landing-form-f35b1",
-    storageBucket: "landing-form-f35b1.appspot.com",
-    messagingSenderId: "460230176225",
-    appId: "1:460230176225:web:43f25f1b1538739b0af6a0",
-    measurementId: "G-MGNG796KRG"
+   firebaseConfig : {
+    apiKey: "AIzaSyCVgMsVF9xuDEHgnLV40sBU5F9tTgop8Sg",
+    authDomain: "lam-dev-app.firebaseapp.com",
+    databaseURL: "https://lam-dev-app.firebaseio.com",
+    projectId: "lam-dev-app",
+    storageBucket: "lam-dev-app.appspot.com",
+    messagingSenderId: "609050148446",
+    appId: "1:609050148446:web:8ce2d1e5a10855be7bbecf",
+    measurementId: "G-FYCK2WJGZN"
   }
 
 };
